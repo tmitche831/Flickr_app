@@ -1,0 +1,9 @@
+%h1 Flickr
+%div
+  = text_field_tag 'search', nil, :autofocus => true
+  = button_tag 'search Flickr', :id => 'search_flickr'
+  = button_tag 'clear images', :id => 'clear_images'
+
+%div#images
+
+= button_tag 'More Images', :id => 'more'
