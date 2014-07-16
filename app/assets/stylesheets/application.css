@@ -13,3 +13,44 @@
  *= require_tree .
  *= require_self
  */
+#container {
+  margin: auto;
+  max-width: 960px;
+}
+
+#more {
+  margin-left: 410px;
+  padding: .5em;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: grey;
+}
+
+#search_flickr {
+  padding: .5em;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: grey;
+}
+
+#clear_images {
+  padding: .5em;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: grey;
+}
+
+#s_bar {
+  margin-left: 229.5px;
+}
+
+body {
+  background-image: url(boat.jpeg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+
+
+
